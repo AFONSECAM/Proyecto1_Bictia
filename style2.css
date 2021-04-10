@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;       
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;             
+}
+
+.col{    
+    width: 25%;    
+    height: 50px;
+    border: 1px solid black;
+    background-color: dimgrey;    
+    text-align: center;
+    box-sizing: border-box;
+}

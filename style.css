@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+/*asi se interactua con una etiqueta*/
+
+body {
+    background-color: tomato;      
+    margin: 0;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.main {
+    margin: 0 40px;
+}
+
+
+/*con clases*/
+
+.navbar-floristeria {
+    background: #000;
+}
+
+
+/*con id*/
+
+#imagen-logo {
+    width: 40px;
+    border-radius: 10px;
+    border-style: dashed;
+    background-color: aliceblue;
+}
+
+#titulo-flores {
+    font-size: 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+#texto1{
+    text-align: center;
+    text-decoration: overline;
+}
+
+#texto2{
+    direction: rtl;
+}
+/*cambiando tiporafia de los p*/
+
+.coments{
+    width: fit-content;
+    background-size: auto;    
+    
+}
+
+.form{
+    width: 25%;
+}
+
+div hr{
+    border-top: 1px dashed;
+}
+div input{
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#img_end{
+    display:block;
+    margin:auto;
+    background-color: lightcoral;
+    border-radius: 50%;
+    height: 200px;        
+}
+
+/*flexbox*/
+
